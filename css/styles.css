@@ -1,0 +1,102 @@
+/* css/styles.css - Estilos básicos para el proyecto del Reto 3.1 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #222;
+}
+
+.site-header {
+    background: #222f3e;
+    color: #fff;
+    padding: 1.2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header h1 {
+    font-size: 1.2rem;
+}
+
+.site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.site-header a {
+    color: #feca57;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+    color: #222f3e;
+}
+
+.container h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1e3799;
+}
+
+.container p {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    border: none;
+    background: #1dd1a1;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.18);
+}
+
+#mensaje-confirmacion {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: #10ac84;
+}
+
+.hidden {
+    display: none;
+}
+
+.site-footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #576574;
+}
